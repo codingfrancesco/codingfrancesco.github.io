@@ -1,0 +1,17 @@
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+#FFP {
+    text-align: center;
+    background-color: aquamarine ;
+}
+
+body {
+    padding: 10%;
+    background-image: url("https://i.pinimg.com/originals/fd/e1/0f/fde10f0a706b219627dfcd34a6a1c939.gif");}
