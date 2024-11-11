@@ -1,7 +1,7 @@
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h1 {
+#title {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aliceblue;
@@ -14,4 +14,19 @@ h1 {
 
 body {
     padding: 10%;
-    background-image: url("https://i.pinimg.com/originals/fd/e1/0f/fde10f0a706b219627dfcd34a6a1c939.gif");}
+}
+
+#fran1 {
+    background-color: aliceblue;
+    font-size: large;
+}
+
+#Nothing {
+    background-color: rgb(105, 217, 118);
+}
+
+
+#usr { 
+    background-color: rgb(105, 217, 118);
+    font-size: x-small;
+}
