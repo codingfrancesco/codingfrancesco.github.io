@@ -15,7 +15,7 @@ p {
 body {
     padding: 10%;
 }
-
+  
 #fran1 {
     background-color: aliceblue;
     font-size: large;
@@ -29,4 +29,18 @@ body {
 #usr { 
     background-color: rgb(105, 217, 118);
     font-size: x-small;
+}
+
+nav {
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
 }
