@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Trafic Light Controller</title>
+</head>
+
+
+
+<body>
+    <div style="display: flex; justify-content: space-between;">
+   <h1 id="1">Road one</h1>
+   <h1 id="2">Road two</h1>
+   <h1 id="3">Road three</h1>
+   <h1 id="4">Road four</h1>
+    </div>
+
+
+    <script>
+        function changeColor(id, color) {
+            document.getElementById(id).style.backgroundColor = color;
+        }
+
+    </script>
+
+
+<div style="display: flex; justify-content: space-between;">
+
+
+        <div>
+            <button onclick="changeColor('1', 'red')">Red</button><br>
+            <button onclick="changeColor('1', 'green')">green</button><br>
+            <button onclick="changeColor('1', 'orange')">Orange</button><br>
+            <button onclick="changeColor('1', 'yellow')">Yellow</button>
+
+        </div>
+    
+        <div>
+            <button onclick="changeColor('2', 'red')">Red</button><br>
+            <button onclick="changeColor('2', 'green')">green</button><br>
+            <button onclick="changeColor('2', 'orange')">Orange</button><br>
+            <button onclick="changeColor('2', 'yellow')">Yellow</button>
+        </div>
+
+
+    
+        <div>
+            <button onclick="changeColor('3', 'red')">Red</button><br>
+            <button onclick="changeColor('3', 'green')">green</button><br>
+            <button onclick="changeColor('3', 'orange')">Orange</button><br>
+            <button onclick="changeColor('3', 'yellow')">Yellow</button>
+        </div>
+
+        
+        <div>
+            <button onclick="changeColor('4', 'red')">Red</button><br>
+            <button onclick="changeColor('4', 'green')">green</button><br>
+            <button onclick="changeColor('4', 'orange')">Orange</button><br>
+            <button onclick="changeColor('4', 'yellow')">Yellow</button>
+        </div>
+
+
+
+
+
+</div>
+
+</body>
+
+
+
+
+</html>
