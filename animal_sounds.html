@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Sounds</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #e0f7fa;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+        }
+        h1 {
+            color: #00796b;
+            margin-bottom: 20px;
+        }
+        button {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            background-color: #4caf50;
+            color: white;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+        @media (max-width: 600px) {
+            button {
+                width: 80%;
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Click an Animal to Hear Its Sound</h1>
+    <button onclick="speak_sheep()">Sheep</button>
+    <button onclick="speak_dog()">Dog</button>
+    <button onclick="speak_snake()">Snake</button>
+
+    <script>
+        function speak_sheep(){
+            var audio = new Audio('sounds/sheepsound.mp3');
+            audio.play();
+        }
+        function speak_dog(){
+            var audio = new Audio('sounds/dogsound.mp3');
+            audio.play();
+        }
+        function speak_snake(){
+            var audio = new Audio('sounds/snakesound.mp3');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
